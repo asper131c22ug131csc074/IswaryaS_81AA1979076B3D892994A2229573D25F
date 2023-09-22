@@ -5,7 +5,6 @@ return a list of indices of all occurrences of the product if found, or an empty
 found.
 """
 
-
 def linearSearchProduct(productList, targetProduct):
   indices = []
 
@@ -15,10 +14,9 @@ def linearSearchProduct(productList, targetProduct):
 
   return indices
 
-
 # Example usage:
 products = ["shoes", "boot", "loafer", "shoes", "sandal", "shoes"," boot",]
 target = "shoes"
+target = 'apple'
 result = linearSearchProduct(products, target) 
-
 print(result)
